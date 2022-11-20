@@ -118,5 +118,13 @@ namespace ErgasiaAllilepidrasiYpologisti
             casualshoe.ShowDialog();
             this.Close();
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Katoikidio kat = new Katoikidio();
+            kat.ShowDialog();
+            this.Close();
+        }
     }
 }

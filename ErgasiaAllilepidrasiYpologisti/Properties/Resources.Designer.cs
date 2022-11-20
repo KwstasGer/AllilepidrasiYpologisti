@@ -253,6 +253,16 @@ namespace ErgasiaAllilepidrasiYpologisti.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap kipos {
+            get {
+                object obj = ResourceManager.GetObject("kipos", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap LightOff {
             get {
                 object obj = ResourceManager.GetObject("LightOff", resourceCulture);
@@ -266,6 +276,86 @@ namespace ErgasiaAllilepidrasiYpologisti.Properties {
         internal static System.Drawing.Bitmap LightOn {
             get {
                 object obj = ResourceManager.GetObject("LightOn", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Potistra_Skilou {
+            get {
+                object obj = ResourceManager.GetObject("Potistra_Skilou", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Potistra_Skilou_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("Potistra_Skilou-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Skilos {
+            get {
+                object obj = ResourceManager.GetObject("Skilos", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Skilos_nero {
+            get {
+                object obj = ResourceManager.GetObject("Skilos_nero", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Skilos_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("Skilos-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Skilos_removebg_preview1 {
+            get {
+                object obj = ResourceManager.GetObject("Skilos-removebg-preview1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Taistra_skilou {
+            get {
+                object obj = ResourceManager.GetObject("Taistra_skilou", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Taistra_skilou_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("Taistra_skilou-removebg-preview", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

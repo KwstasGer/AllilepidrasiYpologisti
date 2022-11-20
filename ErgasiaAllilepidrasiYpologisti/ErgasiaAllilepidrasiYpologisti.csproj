@@ -52,6 +52,12 @@
     <Compile Include="CasualShoes.Designer.cs">
       <DependentUpon>CasualShoes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Katoikidio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Katoikidio.Designer.cs">
+      <DependentUpon>Katoikidio.cs</DependentUpon>
+    </Compile>
     <Compile Include="WeekendProgram.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +80,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="CasualShoes.resx">
       <DependentUpon>CasualShoes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Katoikidio.resx">
+      <DependentUpon>Katoikidio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="WeekendProgram.resx">
       <DependentUpon>WeekendProgram.cs</DependentUpon>
@@ -166,6 +175,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="bin\Debug\warm.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Skilos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Skilos_nero.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Taistra_skilou.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Potistra_Skilou.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\kipos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Skilos-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Taistra_skilou-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Potistra_Skilou-removebg-preview.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

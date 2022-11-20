@@ -31,20 +31,21 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.αρχικήΣελίδαToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.εβδομαδιαίοΠρόγραμμαToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.παπουτσοθήκηToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.επίσημαΠαπούτσιαToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.αθλητικάΠαπούτσιαToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.button8 = new System.Windows.Forms.Button();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.menuStrip2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -65,7 +66,7 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button2.Location = new System.Drawing.Point(32, 330);
+            this.button2.Location = new System.Drawing.Point(32, 303);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(159, 79);
             this.button2.TabIndex = 1001;
@@ -86,6 +87,43 @@
             this.menuStrip2.TabIndex = 1003;
             this.menuStrip2.Text = "menuStrip2";
             // 
+            // αρχικήΣελίδαToolStripMenuItem
+            // 
+            this.αρχικήΣελίδαToolStripMenuItem.Name = "αρχικήΣελίδαToolStripMenuItem";
+            this.αρχικήΣελίδαToolStripMenuItem.Size = new System.Drawing.Size(119, 24);
+            this.αρχικήΣελίδαToolStripMenuItem.Text = "Αρχική Σελίδα";
+            this.αρχικήΣελίδαToolStripMenuItem.Click += new System.EventHandler(this.αρχικήΣελίδαToolStripMenuItem_Click);
+            // 
+            // εβδομαδιαίοΠρόγραμμαToolStripMenuItem
+            // 
+            this.εβδομαδιαίοΠρόγραμμαToolStripMenuItem.Name = "εβδομαδιαίοΠρόγραμμαToolStripMenuItem";
+            this.εβδομαδιαίοΠρόγραμμαToolStripMenuItem.Size = new System.Drawing.Size(196, 24);
+            this.εβδομαδιαίοΠρόγραμμαToolStripMenuItem.Text = "Εβδομαδιαίο Πρόγραμμα";
+            this.εβδομαδιαίοΠρόγραμμαToolStripMenuItem.Click += new System.EventHandler(this.εβδομαδιαίοΠρόγραμμαToolStripMenuItem_Click);
+            // 
+            // παπουτσοθήκηToolStripMenuItem
+            // 
+            this.παπουτσοθήκηToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.επίσημαΠαπούτσιαToolStripMenuItem,
+            this.αθλητικάΠαπούτσιαToolStripMenuItem});
+            this.παπουτσοθήκηToolStripMenuItem.Name = "παπουτσοθήκηToolStripMenuItem";
+            this.παπουτσοθήκηToolStripMenuItem.Size = new System.Drawing.Size(129, 24);
+            this.παπουτσοθήκηToolStripMenuItem.Text = "Παπουτσοθήκη";
+            // 
+            // επίσημαΠαπούτσιαToolStripMenuItem
+            // 
+            this.επίσημαΠαπούτσιαToolStripMenuItem.Name = "επίσημαΠαπούτσιαToolStripMenuItem";
+            this.επίσημαΠαπούτσιαToolStripMenuItem.Size = new System.Drawing.Size(253, 26);
+            this.επίσημαΠαπούτσιαToolStripMenuItem.Text = "Επίσημα Παπούτσια";
+            this.επίσημαΠαπούτσιαToolStripMenuItem.Click += new System.EventHandler(this.επίσημαΠαπούτσιαToolStripMenuItem_Click);
+            // 
+            // αθλητικάΠαπούτσιαToolStripMenuItem
+            // 
+            this.αθλητικάΠαπούτσιαToolStripMenuItem.Name = "αθλητικάΠαπούτσιαToolStripMenuItem";
+            this.αθλητικάΠαπούτσιαToolStripMenuItem.Size = new System.Drawing.Size(253, 26);
+            this.αθλητικάΠαπούτσιαToolStripMenuItem.Text = "Καθημερινά Παπούτσια";
+            this.αθλητικάΠαπούτσιαToolStripMenuItem.Click += new System.EventHandler(this.αθλητικάΠαπούτσιαToolStripMenuItem_Click);
+            // 
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
@@ -101,7 +139,7 @@
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button4.Location = new System.Drawing.Point(911, 432);
+            this.button4.Location = new System.Drawing.Point(911, 443);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(106, 68);
             this.button4.TabIndex = 1005;
@@ -112,11 +150,11 @@
             // button5
             // 
             this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button5.Location = new System.Drawing.Point(32, 443);
+            this.button5.Location = new System.Drawing.Point(32, 399);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(159, 79);
             this.button5.TabIndex = 1006;
-            this.button5.Text = "Αθλητικά Παπούτσια";
+            this.button5.Text = "Καθημερινά Παπούτσια";
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
@@ -134,13 +172,35 @@
             // button7
             // 
             this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button7.Location = new System.Drawing.Point(1023, 432);
+            this.button7.Location = new System.Drawing.Point(1023, 443);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(106, 68);
             this.button7.TabIndex = 1009;
             this.button7.Text = "Σβήσε Θέρμανση";
             this.button7.UseVisualStyleBackColor = false;
             this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(1110, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(28, 16);
+            this.label1.TabIndex = 1011;
+            this.label1.Text = "Exit";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // button8
+            // 
+            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.button8.Location = new System.Drawing.Point(32, 495);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(159, 79);
+            this.button8.TabIndex = 1012;
+            this.button8.Text = "Κατοικίδιο";
+            this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // pictureBox3
             // 
@@ -172,60 +232,13 @@
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
-            // αρχικήΣελίδαToolStripMenuItem
-            // 
-            this.αρχικήΣελίδαToolStripMenuItem.Name = "αρχικήΣελίδαToolStripMenuItem";
-            this.αρχικήΣελίδαToolStripMenuItem.Size = new System.Drawing.Size(119, 24);
-            this.αρχικήΣελίδαToolStripMenuItem.Text = "Αρχική Σελίδα";
-            this.αρχικήΣελίδαToolStripMenuItem.Click += new System.EventHandler(this.αρχικήΣελίδαToolStripMenuItem_Click);
-            // 
-            // εβδομαδιαίοΠρόγραμμαToolStripMenuItem
-            // 
-            this.εβδομαδιαίοΠρόγραμμαToolStripMenuItem.Name = "εβδομαδιαίοΠρόγραμμαToolStripMenuItem";
-            this.εβδομαδιαίοΠρόγραμμαToolStripMenuItem.Size = new System.Drawing.Size(196, 24);
-            this.εβδομαδιαίοΠρόγραμμαToolStripMenuItem.Text = "Εβδομαδιαίο Πρόγραμμα";
-            this.εβδομαδιαίοΠρόγραμμαToolStripMenuItem.Click += new System.EventHandler(this.εβδομαδιαίοΠρόγραμμαToolStripMenuItem_Click);
-            // 
-            // παπουτσοθήκηToolStripMenuItem
-            // 
-            this.παπουτσοθήκηToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.επίσημαΠαπούτσιαToolStripMenuItem,
-            this.αθλητικάΠαπούτσιαToolStripMenuItem});
-            this.παπουτσοθήκηToolStripMenuItem.Name = "παπουτσοθήκηToolStripMenuItem";
-            this.παπουτσοθήκηToolStripMenuItem.Size = new System.Drawing.Size(129, 24);
-            this.παπουτσοθήκηToolStripMenuItem.Text = "Παπουτσοθήκη";
-            // 
-            // επίσημαΠαπούτσιαToolStripMenuItem
-            // 
-            this.επίσημαΠαπούτσιαToolStripMenuItem.Name = "επίσημαΠαπούτσιαToolStripMenuItem";
-            this.επίσημαΠαπούτσιαToolStripMenuItem.Size = new System.Drawing.Size(234, 26);
-            this.επίσημαΠαπούτσιαToolStripMenuItem.Text = "Επίσημα Παπούτσια";
-            this.επίσημαΠαπούτσιαToolStripMenuItem.Click += new System.EventHandler(this.επίσημαΠαπούτσιαToolStripMenuItem_Click);
-            // 
-            // αθλητικάΠαπούτσιαToolStripMenuItem
-            // 
-            this.αθλητικάΠαπούτσιαToolStripMenuItem.Name = "αθλητικάΠαπούτσιαToolStripMenuItem";
-            this.αθλητικάΠαπούτσιαToolStripMenuItem.Size = new System.Drawing.Size(234, 26);
-            this.αθλητικάΠαπούτσιαToolStripMenuItem.Text = "Αθλητικά Παπούτσια";
-            this.αθλητικάΠαπούτσιαToolStripMenuItem.Click += new System.EventHandler(this.αθλητικάΠαπούτσιαToolStripMenuItem_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(1110, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(28, 16);
-            this.label1.TabIndex = 1011;
-            this.label1.Text = "Exit";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1162, 761);
+            this.Controls.Add(this.button8);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.button7);
@@ -270,5 +283,6 @@
         private System.Windows.Forms.ToolStripMenuItem επίσημαΠαπούτσιαToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem αθλητικάΠαπούτσιαToolStripMenuItem;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button8;
     }
 }

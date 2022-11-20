@@ -197,15 +197,15 @@
             // επίσημαΠαπούτσιαToolStripMenuItem
             // 
             this.επίσημαΠαπούτσιαToolStripMenuItem.Name = "επίσημαΠαπούτσιαToolStripMenuItem";
-            this.επίσημαΠαπούτσιαToolStripMenuItem.Size = new System.Drawing.Size(234, 26);
+            this.επίσημαΠαπούτσιαToolStripMenuItem.Size = new System.Drawing.Size(253, 26);
             this.επίσημαΠαπούτσιαToolStripMenuItem.Text = "Επίσημα Παπούτσια";
             this.επίσημαΠαπούτσιαToolStripMenuItem.Click += new System.EventHandler(this.επίσημαΠαπούτσιαToolStripMenuItem_Click);
             // 
             // αθλητικάΠαπούτσιαToolStripMenuItem
             // 
             this.αθλητικάΠαπούτσιαToolStripMenuItem.Name = "αθλητικάΠαπούτσιαToolStripMenuItem";
-            this.αθλητικάΠαπούτσιαToolStripMenuItem.Size = new System.Drawing.Size(234, 26);
-            this.αθλητικάΠαπούτσιαToolStripMenuItem.Text = "Αθλητικά Παπούτσια";
+            this.αθλητικάΠαπούτσιαToolStripMenuItem.Size = new System.Drawing.Size(253, 26);
+            this.αθλητικάΠαπούτσιαToolStripMenuItem.Text = "Καθημερινά Παπούτσια";
             this.αθλητικάΠαπούτσιαToolStripMenuItem.Click += new System.EventHandler(this.αθλητικάΠαπούτσιαToolStripMenuItem_Click);
             // 
             // label3
