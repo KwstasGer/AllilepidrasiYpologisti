@@ -44,6 +44,8 @@
             this.παπουτσοθήκηToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.επίσημαΠαπούτσιαToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.αθλητικάΠαπούτσιαToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.αθλητικάΠαπούτσιαToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.κατοικίδιοToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
@@ -152,6 +154,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.DarkRed;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label2.ForeColor = System.Drawing.SystemColors.Control;
             this.label2.Location = new System.Drawing.Point(408, 36);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(264, 32);
@@ -164,7 +167,8 @@
             this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.αρχικήΣελίδαToolStripMenuItem,
             this.εβδομαδιαίοΠρόγραμμαToolStripMenuItem,
-            this.παπουτσοθήκηToolStripMenuItem});
+            this.παπουτσοθήκηToolStripMenuItem,
+            this.κατοικίδιοToolStripMenuItem});
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
             this.menuStrip2.Size = new System.Drawing.Size(1104, 28);
@@ -189,7 +193,8 @@
             // 
             this.παπουτσοθήκηToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.επίσημαΠαπούτσιαToolStripMenuItem,
-            this.αθλητικάΠαπούτσιαToolStripMenuItem});
+            this.αθλητικάΠαπούτσιαToolStripMenuItem,
+            this.αθλητικάΠαπούτσιαToolStripMenuItem1});
             this.παπουτσοθήκηToolStripMenuItem.Name = "παπουτσοθήκηToolStripMenuItem";
             this.παπουτσοθήκηToolStripMenuItem.Size = new System.Drawing.Size(129, 24);
             this.παπουτσοθήκηToolStripMenuItem.Text = "Παπουτσοθήκη";
@@ -207,6 +212,20 @@
             this.αθλητικάΠαπούτσιαToolStripMenuItem.Size = new System.Drawing.Size(253, 26);
             this.αθλητικάΠαπούτσιαToolStripMenuItem.Text = "Καθημερινά Παπούτσια";
             this.αθλητικάΠαπούτσιαToolStripMenuItem.Click += new System.EventHandler(this.αθλητικάΠαπούτσιαToolStripMenuItem_Click);
+            // 
+            // αθλητικάΠαπούτσιαToolStripMenuItem1
+            // 
+            this.αθλητικάΠαπούτσιαToolStripMenuItem1.Name = "αθλητικάΠαπούτσιαToolStripMenuItem1";
+            this.αθλητικάΠαπούτσιαToolStripMenuItem1.Size = new System.Drawing.Size(253, 26);
+            this.αθλητικάΠαπούτσιαToolStripMenuItem1.Text = "Αθλητικά Παπούτσια";
+            this.αθλητικάΠαπούτσιαToolStripMenuItem1.Click += new System.EventHandler(this.αθλητικάΠαπούτσιαToolStripMenuItem1_Click);
+            // 
+            // κατοικίδιοToolStripMenuItem
+            // 
+            this.κατοικίδιοToolStripMenuItem.Name = "κατοικίδιοToolStripMenuItem";
+            this.κατοικίδιοToolStripMenuItem.Size = new System.Drawing.Size(95, 24);
+            this.κατοικίδιοToolStripMenuItem.Text = "Κατοικίδιο";
+            this.κατοικίδιοToolStripMenuItem.Click += new System.EventHandler(this.κατοικίδιοToolStripMenuItem_Click);
             // 
             // label3
             // 
@@ -273,5 +292,7 @@
         private System.Windows.Forms.ToolStripMenuItem επίσημαΠαπούτσιαToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem αθλητικάΠαπούτσιαToolStripMenuItem;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ToolStripMenuItem αθλητικάΠαπούτσιαToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem κατοικίδιοToolStripMenuItem;
     }
 }

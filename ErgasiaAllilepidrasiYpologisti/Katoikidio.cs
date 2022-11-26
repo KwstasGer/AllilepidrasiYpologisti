@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Media;
@@ -114,6 +115,65 @@ namespace ErgasiaAllilepidrasiYpologisti
                 MessageBox.Show("Το νερό του σκύλου τελείωσε \n \n Βάλε νερό στον σκύλο!");
                 nero = 4;
             }
+        }
+
+        private void αθλητικάΠαπούτσιαToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Δεν έχετε αθλητικά παπούτσια!");
+            {
+                if (MessageBox.Show("Θέλετε να αγοράσετε αθλητικά παπούτσια?", "Αθλητικα παπούτσια", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                {
+                    Process.Start("https://www.nike.com/gr/w/running-shoes-37v7jzy7ok");
+
+                }
+            }
+            SoundPlayer player = new SoundPlayer("GAV.wav");
+            player.Stop();
+        }
+
+        private void κατοικίδιοToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Katoikidio kat = new Katoikidio();
+            kat.ShowDialog();
+            this.Close();
+        }
+
+        private void επίσημαΠαπούτσιαToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            this.Hide();
+            FormalShoes formalshoe = new FormalShoes();
+            formalshoe.ShowDialog();
+            this.Close();
+            
+        }
+
+        private void παπουτσοθήκηToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void αθλητικάΠαπούτσιαToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SoundPlayer player = new SoundPlayer("GAV.wav");
+            player.Stop();
+            this.Hide();
+            CasualShoes casualshoe = new CasualShoes();
+            casualshoe.ShowDialog();
+            this.Close();
+            
+        }
+
+        private void εβδομαδιαίοΠρόγραμμαToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SoundPlayer player = new SoundPlayer("GAV.wav");
+            player.Stop();
+            this.Hide();
+            WeekendProgram form1 = new WeekendProgram();
+            form1.ShowDialog();
+            this.Close();
+            
         }
     }
 }

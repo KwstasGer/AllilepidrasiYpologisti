@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -57,6 +58,26 @@ namespace ErgasiaAllilepidrasiYpologisti
         private void label3_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void αθλητικάΠαπούτσιαToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Δεν έχετε αθλητικά παπούτσια!");
+            {
+                if (MessageBox.Show("Θέλετε να αγοράσετε αθλητικά παπούτσια?", "Αθλητικα παπούτσια", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                {
+                    Process.Start("https://www.nike.com/gr/w/running-shoes-37v7jzy7ok");
+
+                }
+            }
+        }
+
+        private void κατοικίδιοToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Katoikidio kat = new Katoikidio();
+            kat.ShowDialog();
+            this.Close();
         }
     }
 }
